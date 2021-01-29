@@ -20,6 +20,11 @@ public class PlayerLook : MonoBehaviour
     #endregion // Private Attributes
 
     #region MonoBehaviour Methods
+
+    private void Awake()
+    {
+        Cursor.visible = false;
+    }
     // Update is called once per frame
     void Update()
     {
