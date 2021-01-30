@@ -15,11 +15,11 @@ F:/Projects/ggj21-package/Source/Lost In Customs
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62133
+49332
 Successfully changed project path to: F:/Projects/ggj21-package/Source/Lost In Customs
 F:/Projects/ggj21-package/Source/Lost In Customs
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 28.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,70 +35,62 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001556 seconds.
+Registered in 0.001842 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 26.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 28.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.482 seconds
+- Completed reload, in  1.659 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000692 seconds.
+Registered in 0.001664 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.716 seconds
+- Completed reload, in  0.829 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 151.2 MB.
 System memory in use after: 151.2 MB.
 
 Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2090.
-Total: 1.771900 ms (FindLiveObjects: 0.131300 ms CreateObjectMapping: 0.053300 ms MarkObjects: 1.470500 ms  DeleteObjects: 0.116100 ms)
+Total: 1.938000 ms (FindLiveObjects: 0.238000 ms CreateObjectMapping: 0.130100 ms MarkObjects: 1.411500 ms  DeleteObjects: 0.157800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Textures/Carpet 1.png
-  artifactKey: Guid(9e6c97ede57e0384690036bc0a11d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Carpet 1.png using Guid(9e6c97ede57e0384690036bc0a11d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f09514fb7fe67a68e5b8c5a4a342509') in 0.056252 seconds
-  Import took 0.058198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Textures/Roof 1.png
-  artifactKey: Guid(271e0779cacd8a64c919c9ddbecf17c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Roof 1.png using Guid(271e0779cacd8a64c919c9ddbecf17c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f598d3992a71818de30974471d2b768e') in 0.002700 seconds
-  Import took 0.004468 seconds .
+  path: Assets/Scripts/EnemyController.cs
+  artifactKey: Guid(e22e96cc5f2e6ca41830ec0e1c454b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyController.cs using Guid(e22e96cc5f2e6ca41830ec0e1c454b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97912a104c916ee15992bc11c8f9dd7e') in 0.020617 seconds
+  Import took 0.022708 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000671 seconds.
+Registered in 0.000722 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -118,10 +110,526 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.7 MB.
-System memory in use after: 148.8 MB.
+System memory in use before: 149.1 MB.
+System memory in use after: 149.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2092.
+Total: 2.020900 ms (FindLiveObjects: 0.134200 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.781800 ms  DeleteObjects: 0.057400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000799 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.693 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.9 MB.
+System memory in use after: 150.0 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2094.
-Total: 3.434100 ms (FindLiveObjects: 0.455500 ms CreateObjectMapping: 0.205800 ms MarkObjects: 2.723600 ms  DeleteObjects: 0.046800 ms)
+Total: 1.590600 ms (FindLiveObjects: 0.143500 ms CreateObjectMapping: 0.052700 ms MarkObjects: 1.343800 ms  DeleteObjects: 0.049700 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 412.119449 seconds.
+  path: Assets/Sprites/EnemyAuditor
+  artifactKey: Guid(d30c8c699a8d6da4985c9144391ee5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor using Guid(d30c8c699a8d6da4985c9144391ee5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8110034e950c6822acf5756b6b6c4f43') in 0.003625 seconds
+  Import took 0.005915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.435039 seconds.
+  path: Assets/Sprites/EnemyAuditor/AuditorHappy.bmp
+  artifactKey: Guid(66345f32ea133554db8835d92f581458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor/AuditorHappy.bmp using Guid(66345f32ea133554db8835d92f581458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d88fbd2c763e4d33b64e245b9014f00') in 0.085428 seconds
+  Import took 0.087489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.789814 seconds.
+  path: Assets/Sprites/EnemyAuditor/AuditorIdle.bmp
+  artifactKey: Guid(2538f225feb229c47914560a7323ac19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor/AuditorIdle.bmp using Guid(2538f225feb229c47914560a7323ac19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcd4917112d31c0342905449fb8a07b') in 0.012216 seconds
+  Import took 0.014224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.297995 seconds.
+  path: Assets/Sprites/EnemyAuditor/AuditorIdleFront.bmp
+  artifactKey: Guid(2538f225feb229c47914560a7323ac19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor/AuditorIdleFront.bmp using Guid(2538f225feb229c47914560a7323ac19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b7e8906c68b9f3beee209e42bfaf76') in 0.011456 seconds
+  Import took 0.013480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.240005 seconds.
+  path: Assets/Sprites/EnemyAuditor/sjuegrn6.bmp
+  artifactKey: Guid(67f9b15992060f9469633eb0c52e0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor/sjuegrn6.bmp using Guid(67f9b15992060f9469633eb0c52e0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50150fc684699f30426ce2eeb18773fe') in 0.004152 seconds
+  Import took 0.015851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.613642 seconds.
+  path: Assets/Sprites/EnemyAuditor/AuditorIdleBack.bmp
+  artifactKey: Guid(67f9b15992060f9469633eb0c52e0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor/AuditorIdleBack.bmp using Guid(67f9b15992060f9469633eb0c52e0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651955be98fe89e49800d648cc3b61ec') in 0.006007 seconds
+  Import took 0.008035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.668313 seconds.
+  path: Assets/Sprites/EnemyAuditor/99ekzhzo.bmp
+  artifactKey: Guid(e7e2b824f744b1e4794c660592f7319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor/99ekzhzo.bmp using Guid(e7e2b824f744b1e4794c660592f7319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a2dde1836902fa19b3151be7c50317') in 0.006105 seconds
+  Import took 0.008116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.724347 seconds.
+  path: Assets/Sprites/EnemyAuditor/AuditorWalking.bmp
+  artifactKey: Guid(e7e2b824f744b1e4794c660592f7319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor/AuditorWalking.bmp using Guid(e7e2b824f744b1e4794c660592f7319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2aa427ba83e549a45beba0494a1a600') in 0.005961 seconds
+  Import took 0.008022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.913380 seconds.
+  path: Assets/Sprites/EnemyAuditor/AuditorIdleBack.bmp
+  artifactKey: Guid(67f9b15992060f9469633eb0c52e0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor/AuditorIdleBack.bmp using Guid(67f9b15992060f9469633eb0c52e0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060c4a3269391575df1e8dc292c721c6') in 0.005947 seconds
+  Import took 0.008001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.309731 seconds.
+  path: Assets/Sprites/EnemyAuditor/AuditorIdleBack.bmp
+  artifactKey: Guid(67f9b15992060f9469633eb0c52e0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor/AuditorIdleBack.bmp using Guid(67f9b15992060f9469633eb0c52e0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b19448d77a1cd0843f1cb704ffab69') in 0.012598 seconds
+  Import took 0.014638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.652636 seconds.
+  path: Assets/Sprites/EnemyAuditor/AuditorWalking.bmp
+  artifactKey: Guid(e7e2b824f744b1e4794c660592f7319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor/AuditorWalking.bmp using Guid(e7e2b824f744b1e4794c660592f7319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dda0654393337c469ceeb4a06f2f46') in 0.003795 seconds
+  Import took 0.005824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.802618 seconds.
+  path: Assets/Sprites/EnemyAuditor/AuditorWalking.bmp
+  artifactKey: Guid(e7e2b824f744b1e4794c660592f7319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyAuditor/AuditorWalking.bmp using Guid(e7e2b824f744b1e4794c660592f7319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99a1295455b4f73c232bdcd0f62e4f8') in 0.011691 seconds
+  Import took 0.013712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.678251 seconds.
+  path: Assets/Sprites/CharacterFace
+  artifactKey: Guid(c8c8995764ec050429a948e4c11afb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/CharacterFace using Guid(c8c8995764ec050429a948e4c11afb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915824a5e69563cb1a9ba303c871cf96') in 0.001265 seconds
+  Import took 0.003253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.016011 seconds.
+  path: Assets/Sprites/CharacterWeapons
+  artifactKey: Guid(4b10b6a9d9409f741a0f21d2f220f169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/CharacterWeapons using Guid(4b10b6a9d9409f741a0f21d2f220f169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b55f4c51439d18c0e9d717c26b0bb72') in 0.001327 seconds
+  Import took 0.003315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.676779 seconds.
+  path: Assets/Sprites/Weapons
+  artifactKey: Guid(4b10b6a9d9409f741a0f21d2f220f169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons using Guid(4b10b6a9d9409f741a0f21d2f220f169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460ba15563323ecec81eb1fec9546280') in 0.001244 seconds
+  Import took 0.003206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.049512 seconds.
+  path: Assets/Sprites/UI
+  artifactKey: Guid(c8c8995764ec050429a948e4c11afb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI using Guid(c8c8995764ec050429a948e4c11afb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91eaf72a75cbb09b0d5bdad6a466a23f') in 0.001276 seconds
+  Import took 0.003309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.039582 seconds.
+  path: Assets/Sprites/UI/CharacterFace.bmp
+  artifactKey: Guid(ac54e80fcd363b541ab1003dedde3c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/CharacterFace.bmp using Guid(ac54e80fcd363b541ab1003dedde3c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0f1a946155e89c9e6511cfb01734da') in 0.023444 seconds
+  Import took 0.025496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.354594 seconds.
+  path: Assets/Sprites/Auditor
+  artifactKey: Guid(d30c8c699a8d6da4985c9144391ee5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Auditor using Guid(d30c8c699a8d6da4985c9144391ee5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239ba22531dbdda9b43656abfca1d4a1') in 0.001169 seconds
+  Import took 0.003399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.522917 seconds.
+  path: Assets/Sprites/Enemies
+  artifactKey: Guid(9e458da78f80b9946bf9b9e11e3592fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies using Guid(9e458da78f80b9946bf9b9e11e3592fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a121cbfaf767f9464cbe9cf11bca5d8') in 0.001373 seconds
+  Import took 0.012342 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.9 MB.
+System memory in use after: 153.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2103.
+Total: 1.606700 ms (FindLiveObjects: 0.133600 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.376800 ms  DeleteObjects: 0.051400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.728225 seconds.
+  path: Assets/Sprites/Enemies/Guard
+  artifactKey: Guid(1d01b8dbca4abe146b73f469cc9c72d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard using Guid(1d01b8dbca4abe146b73f469cc9c72d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82751c99c815675ad7c302fbf6975998') in 0.003025 seconds
+  Import took 0.005054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.707909 seconds.
+  path: Assets/Sprites/Enemies/Guard/gyes04iv.bmp
+  artifactKey: Guid(63722086007190348b720cdc555f5801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/gyes04iv.bmp using Guid(63722086007190348b720cdc555f5801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa2c4e02fdf8f4dd896db487f64e4e8') in 0.020127 seconds
+  Import took 0.022531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.802366 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardIdleBack.bmp
+  artifactKey: Guid(63722086007190348b720cdc555f5801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardIdleBack.bmp using Guid(63722086007190348b720cdc555f5801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16e22cabeac26628d950ef4cf0e43da') in 0.005893 seconds
+  Import took 0.007923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.382024 seconds.
+  path: Assets/Sprites/Enemies/Guard/ixxt36wt.bmp
+  artifactKey: Guid(7fd941061e51a70478b380a24bbda534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/ixxt36wt.bmp using Guid(7fd941061e51a70478b380a24bbda534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92f922998845392c8f6bef7b3ec548c') in 0.003897 seconds
+  Import took 0.005934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.342715 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardIdleFront.bmp
+  artifactKey: Guid(7fd941061e51a70478b380a24bbda534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardIdleFront.bmp using Guid(7fd941061e51a70478b380a24bbda534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f75999e51d27336b376c69b988abcbf') in 0.014269 seconds
+  Import took 0.019583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.231637 seconds.
+  path: Assets/Sprites/Enemies/Guard/l851h2xx.bmp
+  artifactKey: Guid(71cb86abfd70f5848bec35e5d5869282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/l851h2xx.bmp using Guid(71cb86abfd70f5848bec35e5d5869282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e5cacb22d1bf0a005667bea390a21e') in 0.003941 seconds
+  Import took 0.005995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.704304 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardWalking.bmp
+  artifactKey: Guid(71cb86abfd70f5848bec35e5d5869282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardWalking.bmp using Guid(71cb86abfd70f5848bec35e5d5869282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d94356d8e25c04f7504a732c8ba8576') in 0.005820 seconds
+  Import took 0.007832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.419739 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardIdleFront.bmp
+  artifactKey: Guid(7fd941061e51a70478b380a24bbda534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardIdleFront.bmp using Guid(7fd941061e51a70478b380a24bbda534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b3fc009f8e1f0ed37631836dfd3c59') in 0.014040 seconds
+  Import took 0.019408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.243496 seconds.
+  path: Assets/Sprites/Enemies/Auditor/AuditorIdleFront.bmp
+  artifactKey: Guid(2538f225feb229c47914560a7323ac19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Auditor/AuditorIdleFront.bmp using Guid(2538f225feb229c47914560a7323ac19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903f5e2c1729330b35ee26a94f3bb916') in 0.024663 seconds
+  Import took 0.026703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.698874 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardIdleBack.bmp
+  artifactKey: Guid(63722086007190348b720cdc555f5801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardIdleBack.bmp using Guid(63722086007190348b720cdc555f5801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccefda15bc63e29ff9cf0f2a5751bff7') in 0.003657 seconds
+  Import took 0.005777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.483358 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardIdleBack.bmp
+  artifactKey: Guid(63722086007190348b720cdc555f5801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardIdleBack.bmp using Guid(63722086007190348b720cdc555f5801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a986aa90f698f2d964050bd82865e2f9') in 0.013029 seconds
+  Import took 0.015330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.444147 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardIdleFront.bmp
+  artifactKey: Guid(7fd941061e51a70478b380a24bbda534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardIdleFront.bmp using Guid(7fd941061e51a70478b380a24bbda534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5e7eddfeeadf32cc2ad92ae0b3af5b') in 0.011535 seconds
+  Import took 0.013567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.302331 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardWalking.bmp
+  artifactKey: Guid(71cb86abfd70f5848bec35e5d5869282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardWalking.bmp using Guid(71cb86abfd70f5848bec35e5d5869282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14154f9e47f956f5de1f7590294edac8') in 0.003916 seconds
+  Import took 0.005967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.915614 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardWalking.bmp
+  artifactKey: Guid(71cb86abfd70f5848bec35e5d5869282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardWalking.bmp using Guid(71cb86abfd70f5848bec35e5d5869282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd06ff56f77c439b528fa31264a9b1a7') in 0.011278 seconds
+  Import took 0.013467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 278.259633 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(9e65b7cb874af7448a85834d5c522b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(9e65b7cb874af7448a85834d5c522b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14604ec244e3cdc7fc21c8522b4685da') in 0.001677 seconds
+  Import took 0.004190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.413395 seconds.
+  path: Assets/Fonts/setbackt.ttf
+  artifactKey: Guid(01ae59710280e004397a94c45034426a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/setbackt.ttf using Guid(01ae59710280e004397a94c45034426a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e53fd7dd93b6898af22c89d53df188') in 0.037854 seconds
+  Import took 0.039979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.875499 seconds.
+  path: Assets/Textures/Tiles.png
+  artifactKey: Guid(092ece7d5ebcec44ab088771613de575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tiles.png using Guid(092ece7d5ebcec44ab088771613de575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6044442d9aa107eb0a66fa4d92c8700d') in 0.006024 seconds
+  Import took 0.008226 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000749 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.674 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.3 MB.
+System memory in use after: 153.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2147.
+Total: 1.734200 ms (FindLiveObjects: 0.150600 ms CreateObjectMapping: 0.047600 ms MarkObjects: 1.485000 ms  DeleteObjects: 0.050100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 239.996615 seconds.
+  path: Assets/Fonts/VT323-Regular.ttf
+  artifactKey: Guid(bce10d7529ad5c4469beb23f83827bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/VT323-Regular.ttf using Guid(bce10d7529ad5c4469beb23f83827bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07daeea20d6763a9c3b43dafda20ec4b') in 0.046366 seconds
+  Import took 0.048716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.119084 seconds.
+  path: Assets/Fonts/zig_____.ttf
+  artifactKey: Guid(817e831b12d1f354892d5b6ae81a60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/zig_____.ttf using Guid(817e831b12d1f354892d5b6ae81a60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92234e03447e00933ca87a7b370c20e9') in 0.013444 seconds
+  Import took 0.015613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.771113 seconds.
+  path: Assets/Fonts/Zig.ttf
+  artifactKey: Guid(817e831b12d1f354892d5b6ae81a60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Zig.ttf using Guid(817e831b12d1f354892d5b6ae81a60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a349fa9b590ab6a47094f94bb7ca835') in 0.011292 seconds
+  Import took 0.013533 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.0 MB.
+System memory in use after: 153.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2151.
+Total: 1.609900 ms (FindLiveObjects: 0.130400 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.383700 ms  DeleteObjects: 0.052900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.645 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1606 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.3 MB.
+System memory in use after: 153.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2153.
+Total: 1.602900 ms (FindLiveObjects: 0.139700 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.365700 ms  DeleteObjects: 0.050700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3481.769034 seconds.
+  path: Assets/Sprites/Enemies/Guard/yh5kaddt.bmp
+  artifactKey: Guid(acf657e79553916429b157d04ef513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/yh5kaddt.bmp using Guid(acf657e79553916429b157d04ef513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65c6dd2a937e2ae7ba12262626370cd') in 0.023766 seconds
+  Import took 0.026297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011176 seconds.
+  path: Assets/Sprites/Enemies/Guard/yh5kaddt.bmp
+  artifactKey: Guid(acf657e79553916429b157d04ef513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/yh5kaddt.bmp using Guid(acf657e79553916429b157d04ef513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65c6dd2a937e2ae7ba12262626370cd') in 0.004172 seconds
+  Import took 0.006353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.685483 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardHappy.bmp
+  artifactKey: Guid(acf657e79553916429b157d04ef513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardHappy.bmp using Guid(acf657e79553916429b157d04ef513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77980b0eb0580b527234fb92ade122a6') in 0.005797 seconds
+  Import took 0.007805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.087692 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardHappy.bmp
+  artifactKey: Guid(acf657e79553916429b157d04ef513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardHappy.bmp using Guid(acf657e79553916429b157d04ef513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549cd1d4ae26320d69220300a4db4609') in 0.006400 seconds
+  Import took 0.008500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.313671 seconds.
+  path: Assets/Sprites/Enemies/Guard/GuardHappy.bmp
+  artifactKey: Guid(acf657e79553916429b157d04ef513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Guard/GuardHappy.bmp using Guid(acf657e79553916429b157d04ef513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57f857a37f260a19c386b5c9a8993c0') in 0.025522 seconds
+  Import took 0.027552 seconds .
+

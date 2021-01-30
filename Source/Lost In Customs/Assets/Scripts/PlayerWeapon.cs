@@ -23,7 +23,7 @@ public class PlayerWeapon : MonoBehaviour
 
             if( _currentEnemy != null)
             {
-                _currentEnemy.Stun();
+                StartCoroutine(nameof(HitEnemy));
             }
         }
     }
@@ -44,4 +44,16 @@ public class PlayerWeapon : MonoBehaviour
         }
     }
     #endregion // MonoBehaviour Methods
+
+    #region Coroutines
+    IEnumerator HitEnemy()
+    {
+        if( _currentEnemy != null )
+        {
+            var enemy = _currentEnemy;
+            yield return new WaitForSeconds(1);
+            enemy.Stun();
+        }
+    }
+    #endregion // Coroutines
 }
