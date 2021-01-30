@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-
     #region Editor Attributes
     [SerializeField, Tooltip("Enemy Animator")] private Animator animator = null;
 
