@@ -4848,7 +4848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b78c52a0e973eee41ab3780a9a4f30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collider: {fileID: 299794584}
+  colliderReference: {fileID: 299794584}
 --- !u!65 &299794584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4860,8 +4860,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 1, z: 5}
-  m_Center: {x: 0, y: 0, z: 2.5}
+  m_Size: {x: 2, y: 1, z: 8}
+  m_Center: {x: 0, y: 0, z: 4}
 --- !u!1 &5491385749277751772
 GameObject:
   m_ObjectHideFlags: 0
@@ -5062,7 +5062,7 @@ GameObject:
   - component: {fileID: 5491385750356306519}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

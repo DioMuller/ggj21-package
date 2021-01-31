@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponCollider : MonoBehaviour
 {
     #region Editor Attributes
-    [SerializeField, Tooltip("Player Collider Instance")] private Collider collider = null;
+    [SerializeField, Tooltip("Player Collider Instance")] private Collider colliderReference = null;
     #endregion // Editor Attributes
 
     #region MonoBehaviour Methods
@@ -23,7 +23,7 @@ public class WeaponCollider : MonoBehaviour
     #region Helper Methods
     public void Activate(bool active)
     {
-        collider.enabled = active;
+        colliderReference.enabled = active;
     }
     #endregion // Helper Methods
 

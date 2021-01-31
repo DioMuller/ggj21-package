@@ -16,19 +16,29 @@ public class PlayerWeapon : MonoBehaviour
     #endregion // Private Attributes
 
     #region MonoBehaviour Methods
+
     // Update is called once per frame
     void Update()
     {
+        animator.SetBool("HasPackage", GameManager.Instance.HasPackage);
+
+        if( GameManager.Instance.HasPackage) return;
+
         if( Input.GetButtonDown("Fire1") && !_isActive )
         {
+            _isActive = true;
+            animator.SetTrigger("Execute");
+
             if( GameManager.Instance.UseAmmo() )
             {
-                _isActive = true;
-                animator.SetTrigger("Execute");
                 particles.Play();
                 StartCoroutine(nameof(ActivateCollider));
             }
+
+            StartCoroutine(nameof(WaitForAnimation));
         }
+
+        animator.SetInteger("Money", GameManager.Instance.Ammo);
     }
 
     #endregion // MonoBehaviour Methods
@@ -39,6 +49,11 @@ public class PlayerWeapon : MonoBehaviour
         weaponCollider.Activate(true);
         yield return new WaitForFixedUpdate();
         weaponCollider.Activate(false);
+    }
+
+    IEnumerator WaitForAnimation()
+    {
+        yield return new WaitForSeconds(0.5f);
         _isActive = false;
     }
     #endregion // Coroutines

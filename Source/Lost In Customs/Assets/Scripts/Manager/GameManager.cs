@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     #region Properties
     public int Health { get; private set; } = 100;
     public int Ammo { get; private set; } = 10;
+
+    public bool HasPackage { get; private set; } = false;
     #endregion // Properties
     
     #region MonoBehaviour Methods
@@ -35,6 +37,22 @@ public class GameManager : MonoBehaviour
         if( Ammo <= 0 ) return false;
 
         Ammo--;
+        return true;
+    }
+
+    public bool GetPackage()
+    {
+        if( HasPackage ) return false;
+
+        HasPackage = true;
+        return true;
+    }
+
+    public bool DropPackage()
+    {
+        if( !HasPackage ) return false;
+
+        HasPackage = false;
         return true;
     }
     #endregion // Helper Methods
