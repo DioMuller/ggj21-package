@@ -20,7 +20,7 @@ public class EnemyDamage : MonoBehaviour
     #region MonoBehaviour Methods
     void Update()
     {
-        if( GameManager.Instance.Health <= 0 ) return;
+        if( GameManager.Instance.IsOver ) return;
 
         if( !_isDamaging ) return;
 

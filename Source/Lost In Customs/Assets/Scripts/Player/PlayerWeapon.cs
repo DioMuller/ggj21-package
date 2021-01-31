@@ -21,7 +21,7 @@ public class PlayerWeapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if( GameManager.Instance.Health <= 0 ) return;
+        if( GameManager.Instance.IsOver ) return;
 
         animator.SetBool("HasPackage", GameManager.Instance.HasPackage);
 

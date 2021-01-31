@@ -204,6 +204,7 @@ MonoBehaviour:
   controller: {fileID: 2562922026843058837}
   enemyDamage: {fileID: 2562922028270057184}
   speed: 6
+  canBeDefeated: 0
 --- !u!143 &2562922026843058837
 CharacterController:
   m_ObjectHideFlags: 0

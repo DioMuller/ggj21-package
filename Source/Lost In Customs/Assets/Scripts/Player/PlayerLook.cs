@@ -28,7 +28,7 @@ public class PlayerLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if( GameManager.Instance.Health <= 0 ) return;
+        if( GameManager.Instance.IsOver ) return;
 
         float lx = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
         float ly = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;

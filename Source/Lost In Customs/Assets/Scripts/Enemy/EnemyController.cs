@@ -12,6 +12,8 @@ public class EnemyController : MonoBehaviour
     [SerializeField, Tooltip("Enemy Damage Object")] private GameObject enemyDamage = null;
 
     [SerializeField, Tooltip("Enemy Speed")] private float speed = 10;
+    
+    [SerializeField, Tooltip("Can the enemy be defeated?")] private bool canBeDefeated = true;
     #endregion // Editor Attributes
 
     #region Attributes
@@ -26,7 +28,7 @@ public class EnemyController : MonoBehaviour
     #region MonoBehaviour Methods
     void Update()
     {
-        if( GameManager.Instance.Health <= 0 ) return;
+        if( GameManager.Instance.IsOver ) return;
         if( _isHappy ) return;
 
         animator.SetBool("IsMad", _playerPosition != null);    
@@ -42,6 +44,8 @@ public class EnemyController : MonoBehaviour
     #region Public Methods
     public void Stun()
     {
+        if( !canBeDefeated ) return;
+        
         _isHappy = true;
         enemyDamage.SetActive(false);
         controller.enabled = false;

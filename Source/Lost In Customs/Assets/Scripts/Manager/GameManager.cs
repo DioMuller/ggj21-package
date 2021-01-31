@@ -16,13 +16,15 @@ public class GameManager : MonoBehaviour
 
     #region Properties
     public int Health { get; private set; } = 100;
-    public int Ammo { get; private set; } = 10;
+    public int Ammo { get; private set; } = 15;
 
     public string NextLevel => nextLevel;
 
     public bool HasPackage { get; private set; } = false;
 
     public bool LevelEnded { get; private set; } = false;
+
+    public bool IsOver => LevelEnded || Health <= 0;
     #endregion // Properties
     
     #region MonoBehaviour Methods
