@@ -2118,3 +2118,63 @@ Received Import Request.
 Start importing Assets/Scripts/Manager/GameManager.cs using Guid(7e221d8f09f641942bad32369c18cbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd88a4273e6c193227eefea624945e5') in 0.006684 seconds
   Import took 0.019093 seconds .
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.2 MB.
+System memory in use after: 122.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2234.
+Total: 2.292500 ms (FindLiveObjects: 0.132900 ms CreateObjectMapping: 0.045800 ms MarkObjects: 2.057700 ms  DeleteObjects: 0.054900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 416.121632 seconds.
+  path: Assets/Scripts/Enemy/EnemyDamage.cs
+  artifactKey: Guid(a469e3c24cf875548b7eeba29ce0ad0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyDamage.cs using Guid(a469e3c24cf875548b7eeba29ce0ad0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeeec4eb98270569dc3d51f1a48093e') in 0.001192 seconds
+  Import took 0.003695 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.665 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2236.
+Total: 2.049400 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.057900 ms MarkObjects: 1.714800 ms  DeleteObjects: 0.112000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.368916 seconds.
+  path: Assets/Scripts/Enemy/EnemyDamage.cs
+  artifactKey: Guid(a469e3c24cf875548b7eeba29ce0ad0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyDamage.cs using Guid(a469e3c24cf875548b7eeba29ce0ad0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a544882e55703d9f4c6373faf7d5d5d4') in 0.002638 seconds
+  Import took 0.011221 seconds .
+
