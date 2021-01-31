@@ -6,6 +6,9 @@ public class EnemyView : MonoBehaviour
 {
     #region Editor Attributes
     [SerializeField, Tooltip("Enemy Controller")] private EnemyController controller = null;
+
+    [SerializeField, Tooltip("Random Audio Player")] private RandomAudioPlayer player = null;
+
     #endregion // Editor Attributes
 
     #region Attributes
@@ -26,6 +29,7 @@ public class EnemyView : MonoBehaviour
         if( other.tag == "Player")
         {
             _playerTransform = other.transform;
+            if( !controller.IsInactive ) player.PlayAudio();
         }
     }
 

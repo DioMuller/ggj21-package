@@ -19,6 +19,10 @@ public class EnemyController : MonoBehaviour
     private bool _isHappy = false;
     #endregion // Attributes
 
+    #region  Properties
+    public bool IsInactive => _isHappy;
+    #endregion // Properties
+
     #region MonoBehaviour Methods
     void Update()
     {

@@ -10,6 +10,8 @@ public class UIManager : MonoBehaviour
     [SerializeField, Tooltip("Health Label")] private Text healthLabel;
     [SerializeField, Tooltip("Ammo Label")] private Text ammoLabel;
 
+    [SerializeField, Tooltip("Objective Label")] private Text objectiveLabel;
+
     [SerializeField, Tooltip("Game Over Screen")] private GameObject gameOver;
 
     [SerializeField, Tooltip("Back to Title Button")] private GameObject backToTitleButton;
@@ -27,6 +29,8 @@ public class UIManager : MonoBehaviour
     {
         healthLabel.text = Math.Max(0,GameManager.Instance.Health).ToString();
         ammoLabel.text = GameManager.Instance.Ammo.ToString();
+
+        objectiveLabel.text = GameManager.Instance.HasPackage ? "Voltar ao Elevador" : "Achar o Pacote";
 
         gameOver.SetActive(GameManager.Instance.Health <= 0);
 

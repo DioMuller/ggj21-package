@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 
     #region Editor Attributes
     [SerializeField, Tooltip("Next Level's name")] private string nextLevel;
+
+    [SerializeField, Tooltip("Music Manager Instance")] private MusicManager bgm;
     #endregion // Editor Attributes
 
     #region Properties
@@ -36,6 +38,9 @@ public class GameManager : MonoBehaviour
         if( Health <= 0 ) return false;
 
         Health-=amount;
+
+        if( Health <= 0 ) bgm.Play("GameOver");
+
         return Health >= 0;
     }
 
@@ -50,6 +55,8 @@ public class GameManager : MonoBehaviour
     public bool GetPackage()
     {
         if( HasPackage ) return false;
+
+        bgm.Play("Escape");
 
         HasPackage = true;
         return true;
