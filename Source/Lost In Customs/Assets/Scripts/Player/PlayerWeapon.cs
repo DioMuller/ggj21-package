@@ -9,6 +9,7 @@ public class PlayerWeapon : MonoBehaviour
     [SerializeField, Tooltip("Weapon Animator")] private Animator animator = null;
     [SerializeField, Tooltip("Weapon Collider")] private WeaponCollider weaponCollider = null;
     [SerializeField, Tooltip("Money Particle System")] private ParticleSystem particles = null;
+    [SerializeField, Tooltip("Random Audio Player")] private RandomAudioPlayer player = null;
     #endregion // Editor Attributes
 
     #region Private Attributes
@@ -31,6 +32,7 @@ public class PlayerWeapon : MonoBehaviour
 
             if( GameManager.Instance.UseAmmo() )
             {
+                player.PlayAudio();
                 particles.Play();
                 StartCoroutine(nameof(ActivateCollider));
             }
