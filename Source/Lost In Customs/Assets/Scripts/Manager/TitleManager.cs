@@ -29,5 +29,10 @@ public class TitleManager : MonoBehaviour
     {
         SceneManager.LoadScene("TitleScene");
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
     #endregion // UI Methods    
 }
