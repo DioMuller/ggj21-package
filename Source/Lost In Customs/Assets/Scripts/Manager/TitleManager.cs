@@ -20,6 +20,11 @@ public class TitleManager : MonoBehaviour
         credits.SetActive(!credits.activeSelf);
     }
 
+    public void ShowManual()
+    {
+        SceneManager.LoadScene("HowToPlayScene");
+    }
+
     public void BackToTitle()
     {
         SceneManager.LoadScene("TitleScene");
