@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyDamage : MonoBehaviour
 {
     #region Constants
-    private const float DELAY = 1.0f;
+    private const float DELAY = 0.5f;
     #endregion // Constants
 
     #region Editor Attributes
