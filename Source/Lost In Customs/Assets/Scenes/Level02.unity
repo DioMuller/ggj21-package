@@ -6550,6 +6550,10 @@ PrefabInstance:
       propertyPath: bgm
       value: 
       objectReference: {fileID: 1373858418}
+    - target: {fileID: 4892377384674964558, guid: d669e2592f7cf5a458bf0040ca59020f, type: 3}
+      propertyPath: nextLevel
+      value: Level03
+      objectReference: {fileID: 0}
     - target: {fileID: 4892377384674964559, guid: d669e2592f7cf5a458bf0040ca59020f, type: 3}
       propertyPath: m_Name
       value: GameManager
@@ -6581,7 +6585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5491385750356306523, guid: 1122abf2b691d834ca1c5c24a2cb0681, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 5491385750356306523, guid: 1122abf2b691d834ca1c5c24a2cb0681, type: 3}
       propertyPath: m_LocalRotation.w

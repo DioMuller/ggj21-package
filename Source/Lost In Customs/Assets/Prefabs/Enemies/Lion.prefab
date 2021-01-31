@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a469e3c24cf875548b7eeba29ce0ad0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 30
 --- !u!1 &5477454833766377948
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,10 +445,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: 5d966d090373d6f40b0fc82d722042d0, type: 3}
-  - {fileID: 8300000, guid: bf0cbcef251ff9245b3520794f1164e2, type: 3}
-  - {fileID: 8300000, guid: 9b9dc8d183fdccd4c9bdea82dec65812, type: 3}
-  - {fileID: 8300000, guid: 342e9008ccb6d724687cfa0fffff7f13, type: 3}
-  - {fileID: 8300000, guid: 9033ebef3b6f3e3479bff7a455912cf8, type: 3}
-  - {fileID: 8300000, guid: e92e1e433942d414d87a75b6d29f2654, type: 3}
+  - {fileID: 8300000, guid: d167ad6c2fe30c547a5425699e4525ee, type: 3}
+  - {fileID: 8300000, guid: 71a9f5d92d9866040bda761a66853202, type: 3}
+  - {fileID: 8300000, guid: c8c59ea1a4dd3f2479a27e666906450a, type: 3}
+  - {fileID: 8300000, guid: 1b5d7900d45bfc84aa7c9441d00d6e82, type: 3}
   audioSource: {fileID: 6946912726409227379}

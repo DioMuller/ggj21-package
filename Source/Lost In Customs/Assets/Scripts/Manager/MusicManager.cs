@@ -20,6 +20,7 @@ public class MusicManager : MonoBehaviour
         {
             audioSource.clip = clip;
             audioSource.Play();
+            audioSource.loop = true;
         }
     }
     #endregion // Helper Methods

@@ -19,5 +19,10 @@ public class TitleManager : MonoBehaviour
     {
         credits.SetActive(!credits.activeSelf);
     }
+
+    public void BackToTitle()
+    {
+        SceneManager.LoadScene("TitleScene");
+    }
     #endregion // UI Methods    
 }
