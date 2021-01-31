@@ -864,9 +864,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Setas ou WASD - Mover personagem\nMovimenta\xE7\xE3o do Mouse - Mira\nMOUSE1
-    ou CTRL - Atirar propina\n\n\n\nFunciona com controle? Talvez, mas n\xE3o foi
-    testado. \nSabe como \xE9, jogo de jam."
+  m_Text: "Teclado e Mouse:\n\nSetas ou WASD - Mover personagem\nMovimenta\xE7\xE3o
+    do Mouse - Mira/Olhar\nMOUSE1 ou CTRL - Atirar propina\n\n\n\n\nControle:\n\nAnal\xF3gico
+    da Esqueda ou D-Pad - Mover Personagem\nAnal\xF3gido da Direita - Mira/Olhar\nBot\xE3o
+    de A\xE7\xE3o (A ou X) - Atirar"
 --- !u!222 &780456239
 CanvasRenderer:
   m_ObjectHideFlags: 0
