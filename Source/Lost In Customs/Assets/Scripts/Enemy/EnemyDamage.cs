@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
-        #region Editor Attributes
+    #region Constants
+    private const float DELAY = 0.5f;
+    #endregion // Constants
+
+    #region Editor Attributes
     [SerializeField, Tooltip("Damage Amount")] private int damage = 1;
     #endregion // Editor Attributes
 
     #region Attributes
     private bool _isDamaging = false;
-    private float _timeSinceLast = 1.0f;
+    private float _timeSinceLast = DELAY;
     #endregion // Attributes
 
     #region MonoBehaviour Methods
@@ -20,10 +24,10 @@ public class EnemyDamage : MonoBehaviour
 
         _timeSinceLast += Time.deltaTime;
 
-        if( _timeSinceLast > 1.0f)
+        if( _timeSinceLast > DELAY)
         {
             GameManager.Instance.TakeDamage(damage);
-            _timeSinceLast -= 1.0f;
+            _timeSinceLast -= DELAY;
         }
     }
 

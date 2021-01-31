@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,7 +13,7 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthLabel.text = GameManager.Instance.Health.ToString();
+        healthLabel.text = Math.Max(0,GameManager.Instance.Health).ToString();
         ammoLabel.text = GameManager.Instance.Ammo.ToString();
     }
     #endregion // MonoBehaviour Methods
