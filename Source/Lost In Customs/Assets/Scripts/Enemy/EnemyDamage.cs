@@ -20,7 +20,9 @@ public class EnemyDamage : MonoBehaviour
     #region MonoBehaviour Methods
     void Update()
     {
-        if( !_isDamaging || !GameManager.Instance.HasPackage ) return;
+        if( GameManager.Instance.Health <= 0 ) return;
+
+        if( !_isDamaging ) return;
 
         _timeSinceLast += Time.deltaTime;
 

@@ -200,7 +200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1056196864}
   controller: {fileID: 675471775}
-  stunTime: 10
+  enemyDamage: {fileID: 2001511914}
   speed: 8
 --- !u!143 &675471775
 CharacterController:

@@ -9,34 +9,38 @@ public class EnemyController : MonoBehaviour
 
     [SerializeField, Tooltip("Character Controller")] private CharacterController controller = null;
 
-    [SerializeField, Tooltip("Stun Time (In Seconds)")] private float stunTime = 10.0f;
+    [SerializeField, Tooltip("Enemy Damage Object")] private GameObject enemyDamage = null;
 
     [SerializeField, Tooltip("Enemy Speed")] private float speed = 10;
     #endregion // Editor Attributes
 
     #region Attributes
     private Vector3? _playerPosition = null;
+    private bool _isHappy = false;
     #endregion // Attributes
 
     #region MonoBehaviour Methods
     void Update()
     {
-        animator.SetBool("IsMad", GameManager.Instance.HasPackage);    
+        if( GameManager.Instance.Health <= 0 ) return;
+        if( _isHappy ) return;
 
-        if( GameManager.Instance.HasPackage )
+        animator.SetBool("IsMad", _playerPosition != null);    
+
+        if( _playerPosition is Vector3 position )
         {
-            if( _playerPosition is Vector3 position )
-            {
-                var movement = (position - transform.position).normalized * speed * Time.deltaTime;
-                controller.Move(movement);
-            }
-        }    
+            var movement = (position - transform.position).normalized * speed * Time.deltaTime;
+            controller.Move(movement);
+        }
     }
     #endregion // MonoBehaviour Methods
 
     #region Public Methods
     public void Stun()
     {
+        _isHappy = true;
+        enemyDamage.SetActive(false);
+        controller.enabled = false;
         animator.SetBool("IsHappy", true);
     }
 

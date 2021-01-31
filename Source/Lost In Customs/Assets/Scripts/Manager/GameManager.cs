@@ -7,13 +7,20 @@ public class GameManager : MonoBehaviour
     #region  Singleton
     public static GameManager Instance {get; private set;}
     #endregion // Singleton
-    // Start is called before the first frame update
+
+    #region Editor Attributes
+    [SerializeField, Tooltip("Next Level's name")] private string nextLevel;
+    #endregion // Editor Attributes
 
     #region Properties
     public int Health { get; private set; } = 100;
     public int Ammo { get; private set; } = 10;
 
+    public string NextLevel => nextLevel;
+
     public bool HasPackage { get; private set; } = false;
+
+    public bool LevelEnded { get; private set; } = false;
     #endregion // Properties
     
     #region MonoBehaviour Methods
@@ -54,6 +61,11 @@ public class GameManager : MonoBehaviour
 
         HasPackage = false;
         return true;
+    }
+
+    public void FinishLevel()
+    {
+        LevelEnded = true;
     }
     #endregion // Helper Methods
 }

@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if( GameManager.Instance.Health <= 0 ) return;
+
         float mx = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
         float my = Input.GetAxis("Vertical") * speed * Time.deltaTime;
         var movement = transform.right * mx + transform.forward * my;
